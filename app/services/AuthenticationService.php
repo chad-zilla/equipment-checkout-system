@@ -1,4 +1,7 @@
 <?php
+
+namespace App\Services;
+
 class AuthenticationService {
     private static $instance = null;
 
@@ -14,10 +17,15 @@ class AuthenticationService {
     }
 
     public function signIn($email, $password) {
-        // Authentication logic here
+        // temporary authentication logic
+        if ($email === "user@example.com" && $password === "password123") {
+            return true;
+        }
+        return false;
     }
 
     public function signOut() {
         // Sign out logic here
+        return true;
     }
 }
