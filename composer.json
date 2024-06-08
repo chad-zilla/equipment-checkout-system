@@ -1,0 +1,20 @@
+{
+    "name": "chadzilla/equipment-checkout-system",
+    "description": "CEIS 400 project for equipment checkout system.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Chadzilla\\EquipmentCheckoutSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chad Mueller",
+            "email": "chad@websitesbeyond.com"
+        }
+    ],
+    "require": {},
+    "psr-4": {
+        "App\\": "app/"
+    }
+}
