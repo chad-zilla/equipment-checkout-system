@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Models;
+
 class Inventory {
     public $id;
     public $quantity;
@@ -7,11 +9,11 @@ class Inventory {
     public $materialId;
     public $warehouseId;
 
-    public function updateQuantity() {
-        // under construction
+    public function updateQuantity($newQuantity) {
+        $this->quantity = $newQuantity;
     }
 
     public function checkStock() {
-        // under construction
+        $this->quantity > 0; 
     }
 }
