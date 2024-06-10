@@ -11,6 +11,7 @@ use App\Models\Inventory;
 // Test Database Connection
 use App\Database;
 
+echo "Chad Mueller - CEIS 400 ECS Testing:\n";
 echo "Testing Database Connection...\n";
 
 try {
