@@ -1,4 +1,7 @@
 <?php
+
+namespace App\Models;
+
 abstract class Equipment {
     public $id;
     public $type;

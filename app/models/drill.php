@@ -1,6 +1,6 @@
 <?php
-
 namespace App\Models;
+use App\Models\Equipment;
 
 class Drill extends Equipment {
     public $drillSpeed;
