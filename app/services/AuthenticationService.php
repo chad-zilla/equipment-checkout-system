@@ -17,6 +17,10 @@ class AuthenticationService {
     }
 
     public function signIn($email, $password) {
+        if (empty($email) || empty($password)) {
+            throw new \InvalidArgumentException("Email and password must not be empty.");
+        }
+        
         // temporary authentication logic
         if ($email === "user@example.com" && $password === "password123") {
             return true;
